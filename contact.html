@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://kit.fontawesome.com/805f1dff43.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container contact">
+      <div class="nav">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li class="btn btn-menu">
+              <a href="./index.html" data-after="About">About</a>
+            </li>
+            <li class="btn btn-menu">
+              <a href="./portfolio.html" data-after="Projects">Projects</a>
+            </li>
+            <li class="btn btn-menu">
+              <a href="./contact.html" data-after="Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-wrapper">
+        <h2>Get in touch</h2>
+        <p>
+          If you wanna get in touch, talk to me about a project collaboration or
+          just say hi, <br />
+          fill up the awesome form below or send an email to
+          <strong
+            ><a href="#" class="fancy-link">saefulhaqwafa@gmail.com</a></strong
+          >
+          and ~let's talk.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-control">
+            <input
+              placeholder="Name"
+              type="text"
+              autocomplete="off"
+              id="name"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <input
+              placeholder="Email"
+              type="email"
+              autocomplete="off"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <textarea
+              placeholder="Message"
+              name="message"
+              required
+              id="message"
+              cols="30"
+              rows="1"
+            ></textarea>
+          </div>
+
+          <button class="btn-3d btn-3d-linkedin" type="submit">Send</button>
+        </form>
+
+        <div class="contact-social">
+          <h2>Lets get Social</h2>
+          <div class="links">
+            <a href="#" class="btn-3d btn-3d-fb">Facebook</a>
+            <a href="#" class="btn-3d btn-3d-linkedin">Linkedin</a>
+            <a href="#" class="btn-3d btn-3d-github">Github</a>
+            <a href="#" class="btn-3d btn-3d-twitter">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
