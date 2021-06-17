@@ -13,7 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+
+    <script src="node_modules/swup/dist/swup.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -25,26 +28,26 @@
         <div class="nav-menu">
           <ul>
             <li class="btn btn-menu">
-              <a href="./index.html" data-after="About">About</a>
+              <a href="/index.html" data-after="About">About</a>
             </li>
             <li class="btn btn-menu">
-              <a href="./portfolio.html" data-after="Projects">Projects</a>
+              <a href="/portfolio.html" data-after="Projects">Projects</a>
             </li>
             <li class="btn btn-menu">
-              <a href="./contact.html" data-after="Contact">Contact</a>
+              <a href="/contact.html" data-after="Contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="contact-wrapper">
+      <div id="swup" class="transition-fade contact-wrapper">
         <h2>Get in touch</h2>
         <p>
           If you wanna get in touch, talk to me about a project collaboration or
           just say hi, <br />
           fill up the awesome form below or send an email to
           <strong
-            ><a href="#" class="fancy-link">saefulhaqwafa@gmail.com</a></strong
+            ><a href="/#" class="fancy-link">saefulhaqwafa@gmail.com</a></strong
           >
           and ~let's talk.
         </p>
@@ -83,16 +86,14 @@
         </form>
 
         <div class="contact-social">
-          <h2>Lets get Social</h2>
+          <h2>Let's get Social</h2>
           <div class="links">
-            <a href="#" class="btn-3d btn-3d-linkedin">Linkedin</a>
-            <a href="#" class="btn-3d btn-3d-github">Github</a>
-            <a href="#" class="btn-3d btn-3d-twitter">Twitter</a>
+            <a href="/#" class="btn-3d btn-3d-linkedin">Linkedin</a>
+            <a href="/#" class="btn-3d btn-3d-github">Github</a>
+            <a href="/#" class="btn-3d btn-3d-twitter">Twitter</a>
           </div>
         </div>
       </div>
     </div>
-
-    <script src="./script.js"></script>
   </body>
 </html>

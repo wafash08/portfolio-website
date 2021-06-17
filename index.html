@@ -8,18 +8,14 @@
       src="https://kit.fontawesome.com/805f1dff43.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap"
-      rel="stylesheet"
-    /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js " defer></script>
+    <script src="node_modules/swup/dist/swup.min.js" defer></script>
+    <script src="script.js " defer></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Wafa Saefulhaq</title>
   </head>
   <body>
@@ -31,42 +27,54 @@
         <div class="nav-menu">
           <ul>
             <li class="btn btn-menu">
-              <a href="./index.html" data-after="About">About</a>
+              <a href="/index.html" data-after="About">About</a>
             </li>
             <li class="btn btn-menu">
-              <a href="./portfolio.html" data-after="Projects">Projects</a>
+              <a href="/portfolio.html" data-after="Projects">Projects</a>
             </li>
             <li class="btn btn-menu">
-              <a href="./contact.html" data-after="Contact">Contact</a>
+              <a href="/contact.html" data-after="Contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="about-me">
-        <h1 class="text-center typing">Hello, my name is Wafa Saefulhaq.</h1>
-        <p class="text-center fadeIn-paragraph">
-          I am a front-end developer. <br />
-          I like to build a creative web.
-        </p>
-        <a
-          href="./portfolio.html"
-          class="btn-3d btn-3d-github text-center fadeIn-paragraph"
-          >Let's see my projects!</a
-        >
-      </div>
-
-      <div class="social fadeIn-paragraph">
-        <small>Follow me</small>
-        <div class="links">
-          <a href="#" class="btn-3d btn-3d-linkedin">Linkedin</a>
-          <a href="#" class="btn-3d btn-3d-github">Github</a>
-          <a href="#" class="btn-3d btn-3d-twitter">Twitter</a>
+      <div id="swup" class="transition-fade">
+        <div class="about-me">
+          <h1 class="text-center typing">Hello, my name is Wafa Saefulhaq.</h1>
+          <p class="text-center fadeIn-paragraph">
+            I am a front-end developer. <br />
+            I like to build a creative web.
+          </p>
+          <a
+            href="/portfolio.html"
+            class="btn-3d btn-3d-github text-center fadeIn-paragraph"
+            >Let's see my projects!</a
+          >
         </div>
-      </div>
 
-      <div class="next">
-        <a href="./portfolio.html">Next</a>
+        <ul class="transition-swipe social-media-container">
+          <li class="social-media twitter">
+            <a href="/#" target="_blank">Twitter</a>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li class="social-media linkedin">
+            <a href="/#" target="_blank">Linkedin</a>
+            <i class="fab fa-linkedin-in"></i>
+          </li>
+          <li class="social-media facebook">
+            <a href="/#" target="_blank">Facebook</a>
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li class="social-media github">
+            <a href="/#" target="_blank">Github</a>
+            <i class="fab fa-github"></i>
+          </li>
+        </ul>
+
+        <div class="next">
+          <a href="/portfolio.html">Next</a>
+        </div>
       </div>
     </section>
   </body>
